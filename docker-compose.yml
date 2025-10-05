@@ -1,10 +1,32 @@
-version: '3.8'
+version: '3.9'
 services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql_db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: comfort3456
+      MYSQL_DATABASE: workforce_management_system
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - wms_network
+
   rabbitmq:
     image: rabbitmq:3-management
+    container_name: rabbitmq
+    restart: always
     ports:
-      - "5672:5672"
-      - "15672:15672"
-    environment:
-      RABBITMQ_DEFAULT_USER: guest
-      RABBITMQ_DEFAULT_PASS: guest
+      - "5672:5672"      # RabbitMQ connection
+      - "15672:15672"    # Management UI
+    networks:
+      - wms_network
+
+volumes:
+  mysql_data:
+
+networks:
+  wms_network:
+    driver: bridge
