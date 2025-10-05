@@ -1,0 +1,83 @@
+[2025-10-04 03:54:15] DEBUG: Incoming request to create department
+[2025-10-04 03:54:15] DEBUG: Incoming request to create a department
+[2025-10-04 03:54:15] DEBUG: validating department name
+[2025-10-04 03:54:15] DEBUG: Creating department in the db
+[2025-10-04 03:54:15] ERROR: Error creating department: Field 'name' doesn't have a default value
+[2025-10-04 04:36:15] DEBUG: Incoming request to create department
+[2025-10-04 04:36:15] DEBUG: Incoming request to create a department
+[2025-10-04 04:36:15] DEBUG: validating department name
+[2025-10-04 04:36:15] DEBUG: Creating department in the db
+[2025-10-04 04:36:15] INFO: Department 'prayer' created successfully
+[2025-10-04 15:07:50] DEBUG: Incoming request to get employees of a department with ID: 1
+[2025-10-04 15:07:50] DEBUG: Service: fetching department 1 with employees
+[2025-10-04 15:07:50] DEBUG: Validating pagination parameters and department ID
+[2025-10-04 15:07:50] DEBUG: Fetching department 1 with employees
+[2025-10-04 17:19:11] DEBUG: Incoming request to create employee
+[2025-10-04 17:19:11] DEBUG: Creating employee with email adeleye2166@gmail.com
+[2025-10-04 17:19:11] DEBUG: Validating employee data
+[2025-10-04 17:19:11] WARN: Missing required fields: name, email, departmentId
+[2025-10-04 17:19:11] ERROR: Error creating employee: Missing required fields: name, email, departmentId
+[2025-10-04 17:20:28] DEBUG: Incoming request to create employee
+[2025-10-04 17:20:28] DEBUG: Creating employee with email adeleye2166@gmail.com
+[2025-10-04 17:20:28] DEBUG: Validating employee data
+[2025-10-04 17:20:28] DEBUG: Checking if department ID 5 exists
+[2025-10-04 17:20:28] WARN: Department with ID 5 not found
+[2025-10-04 17:20:29] ERROR: Error creating employee: Invalid department ID
+[2025-10-04 17:20:45] DEBUG: Incoming request to create employee
+[2025-10-04 17:20:45] DEBUG: Creating employee with email adeleye2166@gmail.com
+[2025-10-04 17:20:45] DEBUG: Validating employee data
+[2025-10-04 17:20:45] DEBUG: Checking if department ID 2 exists
+[2025-10-04 17:20:45] WARN: Department with ID 2 not found
+[2025-10-04 17:20:45] ERROR: Error creating employee: Invalid department ID
+[2025-10-04 17:20:51] DEBUG: Incoming request to create employee
+[2025-10-04 17:20:51] DEBUG: Creating employee with email adeleye2166@gmail.com
+[2025-10-04 17:20:51] DEBUG: Validating employee data
+[2025-10-04 17:20:51] DEBUG: Checking if department ID 1 exists
+[2025-10-04 17:20:51] DEBUG: Checking if email adeleye2166@gmail.com already exists
+[2025-10-04 17:20:51] WARN: Email adeleye2166@gmail.com already exists
+[2025-10-04 17:20:51] ERROR: Error creating employee: Email already registered. Please use another one.
+[2025-10-04 17:23:04] DEBUG: Incoming request to create employee
+[2025-10-04 17:23:04] DEBUG: Creating employee with email adeleye2166@gmail.com
+[2025-10-04 17:23:04] DEBUG: Validating employee data
+[2025-10-04 17:23:04] DEBUG: Checking if department ID 1 exists
+[2025-10-04 17:23:04] DEBUG: Checking if email adeleye2166@gmail.com already exists
+[2025-10-04 17:23:04] DEBUG: Mapping to employee model
+[2025-10-04 17:23:04] DEBUG: Saving employee with email adeleye2166@gmail.com to the database
+[2025-10-04 17:23:04] INFO: Employee 'Adeleye Ibukun' created successfully
+[2025-10-04 17:23:25] DEBUG: Incoming request to create employee
+[2025-10-04 17:23:25] DEBUG: Creating employee with email ibukun2166@gmail.com
+[2025-10-04 17:23:25] DEBUG: Validating employee data
+[2025-10-04 17:23:25] DEBUG: Checking if department ID 1 exists
+[2025-10-04 17:23:25] DEBUG: Checking if email ibukun2166@gmail.com already exists
+[2025-10-04 17:23:25] DEBUG: Mapping to employee model
+[2025-10-04 17:23:25] DEBUG: Saving employee with email ibukun2166@gmail.com to the database
+[2025-10-04 17:23:25] INFO: Employee 'Adeleye Ibukun' created successfully
+[2025-10-04 17:23:38] DEBUG: Incoming request to create employee
+[2025-10-04 17:23:38] DEBUG: Creating employee with email phoebe2166@gmail.com
+[2025-10-04 17:23:38] DEBUG: Validating employee data
+[2025-10-04 17:23:38] DEBUG: Checking if department ID 1 exists
+[2025-10-04 17:23:38] DEBUG: Checking if email phoebe2166@gmail.com already exists
+[2025-10-04 17:23:38] DEBUG: Mapping to employee model
+[2025-10-04 17:23:38] DEBUG: Saving employee with email phoebe2166@gmail.com to the database
+[2025-10-04 17:23:38] INFO: Employee 'Adeleye Ibukun' created successfully
+[2025-10-04 17:23:51] DEBUG: Incoming request to create department
+[2025-10-04 17:23:51] DEBUG: Incoming request to create a department
+[2025-10-04 17:23:51] DEBUG: validating department name
+[2025-10-04 17:23:51] DEBUG: Creating department in the db
+[2025-10-04 17:23:51] INFO: Department 'ushering' created successfully
+[2025-10-04 17:24:04] DEBUG: Incoming request to create employee
+[2025-10-04 17:24:04] DEBUG: Creating employee with email christLove2166@gmail.com
+[2025-10-04 17:24:04] DEBUG: Validating employee data
+[2025-10-04 17:24:04] DEBUG: Checking if department ID 1 exists
+[2025-10-04 17:24:04] DEBUG: Checking if email christlove2166@gmail.com already exists
+[2025-10-04 17:24:04] DEBUG: Mapping to employee model
+[2025-10-04 17:24:04] DEBUG: Saving employee with email christlove2166@gmail.com to the database
+[2025-10-04 17:24:04] INFO: Employee 'Adeleye Ibukun' created successfully
+[2025-10-04 17:24:13] DEBUG: Incoming request to create employee
+[2025-10-04 17:24:13] DEBUG: Creating employee with email christ2166@gmail.com
+[2025-10-04 17:24:13] DEBUG: Validating employee data
+[2025-10-04 17:24:13] DEBUG: Checking if department ID 2 exists
+[2025-10-04 17:24:13] DEBUG: Checking if email christ2166@gmail.com already exists
+[2025-10-04 17:24:13] DEBUG: Mapping to employee model
+[2025-10-04 17:24:13] DEBUG: Saving employee with email christ2166@gmail.com to the database
+[2025-10-04 17:24:13] INFO: Employee 'Adeleye Ibukun' created successfully

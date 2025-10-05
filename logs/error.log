@@ -1,0 +1,5 @@
+[2025-10-04 03:54:15] ERROR: Error creating department: Field 'name' doesn't have a default value
+[2025-10-04 17:19:11] ERROR: Error creating employee: Missing required fields: name, email, departmentId
+[2025-10-04 17:20:29] ERROR: Error creating employee: Invalid department ID
+[2025-10-04 17:20:45] ERROR: Error creating employee: Invalid department ID
+[2025-10-04 17:20:51] ERROR: Error creating employee: Email already registered. Please use another one.
